@@ -1,0 +1,118 @@
+/* styles.css */
+
+/* Reset de marges i padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estils per a la navbar */
+nav {
+    background-color: #f8f9fa;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+#video-carousel {
+    max-height: 800px; /* Ajusta la altura máxima según sea necesario */
+    overflow: hidden; /* Evita que el video sobresalga */
+}
+
+#video-carousel video {
+    height: auto; /* Mantiene la relación de aspecto */
+    max-height: 100%; /* Asegúrate de que no sobresalga */
+}
+
+
+/* Estils per al contenidor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estils per a les files i columnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Estils per a títols i paràgrafs */
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+ 
+.movie-title a {
+    text-decoration: none;
+    color: black;
+}
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .colortexto:hover {
+    background-color: #e2332b;
+    background-size: 50%;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+  }
+
+  .titol:hover {
+
+    text-decoration: none;
+    color:#e2332b;
+    font-weight: bold;
+  }
